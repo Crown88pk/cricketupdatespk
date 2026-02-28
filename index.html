@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="dark" lang="en">
-  <head> 
+  <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Premium Gaming Funnel | Join the Inner Circle</title>
@@ -32,6 +32,8 @@
       };
     </script>
 
+      
+    
     <style type="text/tailwindcss">
       @layer base {
         html {
@@ -88,7 +90,70 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
       }
+
+
+/* ===== New sections styling ===== */
+.video-thumb {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.10), transparent 55%),
+    linear-gradient(135deg, rgba(1, 65, 28, 0.25), rgba(184, 134, 11, 0.18)),
+    rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.video-thumb__overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.50) 100%);
+}
+
+/* Patriotic themed background with readable overlay */
+.pak-announce {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+
+  background-image: url("assets/announcement-bg.jpg"); /* your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pak-announce__overlay {
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,0.08) 0px,
+      rgba(255,255,255,0.08) 10px,
+      rgba(255,255,255,0.00) 10px,
+      rgba(255,255,255,0.00) 26px
+    ),
+    linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%);
+  pointer-events: none;
+}
+
+/* Digital-style counter */
+.fund-counter {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 900;
+  font-size: clamp(34px, 4.6vw, 64px);
+  line-height: 1.05;
+  letter-spacing: 0.08em;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.28);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.12);
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
     </style>
+
+
+
+
+
+
   </head>
 
   <body class="pb-24">
@@ -104,21 +169,21 @@
             class="h-10 w-auto"
           />
         </div>
-        <!-- end of logo -->
+        
 
         <div class="md:flex items-end gap-8">
-          <!-- LOGIN/REGISTER + required text -->
+          <!-- LOGIN/REGISTER Button -->
        <div class="flex flex-col items-end leading-tight">
   <a href="https://crown88.site/pk6" target="_blank">
-    <button
-      class="border border-primary-gold/30 bg-primary-gold text-white rounded px-5 py-2 transition-all hover:scale-105"
-    >
+   <button
+  class="border border-primary-gold/30 bg-primary-gold text-white rounded px-3 py-1 md:px-5 md:py-2 transition-all hover:scale-105"
+>
       <div class="flex flex-col items-center leading-tight">
-        <div class="text-sm md:text-base font-black uppercase tracking-widest">
+        <div class="text-[11px] md:text-base font-black uppercase tracking-widest">
           Login/Register
         </div>
-        <div class="mt-0.5 text-[10px] md:text-xs font-bold text-center normal-case tracking-normal opacity-95">
-          Claim 1000PKR verify mobile no. and email
+       <div class="mt-0.5 text-[8px] md:text-xs font-bold text-center normal-case tracking-normal opacity-95">
+          Claim 300PKR verify mobile no. and email
         </div>
       </div>
     </button>
@@ -128,7 +193,7 @@
       </div>
     </nav>
 
-    <!-- NEW: Banner Carousel (drag with cursor + auto slide). All click to https://c88tk.com -->
+    <!-- Carousel Banners All Slides -->
     <header class="relative pt-16 w-full overflow-hidden">
       <div class="w-full">
         <div
@@ -193,7 +258,7 @@
   </div>
 
   <div class="flex flex-nowrap gap-2 md:gap-4 justify-center">
-          <!-- Telegram (telegram color) -->
+          <!-- telegram colorr -->
           <a
             class="btn-telegram text-white px-3 md:px-6 py-2 md:py-4 rounded-lg font-black text-[10px] md:text-sm uppercase tracking-wider md:tracking-widest flex items-center gap-1 md:gap-2 hover:scale-105 transition-transform shadow-lg whitespace-nowrap"
             href="https://t.me/Crown88Global/316748"
@@ -203,7 +268,7 @@
             Join Telegram
           </a>
 
-          <!-- Facebook (facebook color) -->
+          <!-- facebook color -->
           <a
             class="btn-facebook text-white px-3 md:px-6 py-2 md:py-4 rounded-lg font-black text-[10px] md:text-sm uppercase tracking-wider md:tracking-widest hover:scale-105 transition-transform shadow-lg flex items-center gap-1 md:gap-2 whitespace-nowrap"
             href="https://www.facebook.com/groups/25848706678073354/"
@@ -217,6 +282,182 @@
     </div>
 
     <section class="py-20 bg-deep-navy" id="games">
+
+
+<!-- BASIC INFORMATION TAB -->
+<section class="py-10 md:py-14">
+  <div class="container mx-auto px-6">
+    <div class="flex items-center gap-4 mb-6 md:mb-8">
+      <div class="h-8 w-1 bg-primary-gold"></div>
+      <h2 class="text-xl md:text-2xl font-black uppercase tracking-widest italic">
+        BASIC INFORMATION ABOUT CROWN88 PAKISTAN
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+      <!-- Info table card -->
+      <div class="rounded-2xl glass-card shadow-xl overflow-hidden">
+        <div class="p-5 md:p-7">
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm md:text-base">
+              <tbody class="divide-y divide-white/10">
+                <tr class="align-top">
+                  <td class="py-4 pr-4 font-extrabold text-white/90 whitespace-nowrap">
+                    Platform name
+                  </td>
+                  <td class="py-4 text-white/90">
+                    Crown88
+                  </td>
+                </tr>
+                <tr class="align-top">
+                  <td class="py-4 pr-4 font-extrabold text-white/90 whitespace-nowrap">
+                    Language
+                  </td>
+                  <td class="py-4 text-white/90">
+                    English, Urdu
+                  </td>
+                </tr>
+                <tr class="align-top">
+                  <td class="py-4 pr-4 font-extrabold text-white/90 whitespace-nowrap">
+                    Deposit Method
+                  </td>
+                  <td class="py-4 text-white/90">
+                    Jazzcash and Easypaisa
+                  </td>
+                </tr>
+                <tr class="align-top">
+                  <td class="py-4 pr-4 font-extrabold text-white/90 whitespace-nowrap">
+                    Min Deposit
+                  </td>
+                  <td class="py-4 text-white/90">
+                    500PKR
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="mt-5 text-xs md:text-sm text-white/60">
+            * Information shown for quick reference.
+          </div>
+        </div>
+      </div>
+
+      <!-- Video card -->
+      <div class="rounded-2xl glass-card shadow-xl overflow-hidden">
+        <div class="p-5 md:p-7">
+          <div class="flex items-center justify-between gap-4 mb-4">
+            <h3 class="text-base md:text-lg font-black uppercase tracking-wider">
+              How to deposit via Jazzcash/Easypaisa
+            </h3>
+            <span class="text-[10px] md:text-xs font-bold uppercase tracking-widest text-white/60">
+              Tutorial
+            </span>
+          </div>
+
+
+
+         
+      <!-- vid player -->
+<div class="group relative w-full aspect-video rounded-xl overflow-hidden video-thumb">
+  <video
+    class="absolute inset-0 w-full h-full object-cover"
+    src="assets/deposit.mp4"
+    poster="assets/deposit-thumbnail.jpg"
+    controls
+    playsinline
+    preload="metadata"
+  ></video>
+</div>
+
+
+
+
+</div>
+</div>
+           
+
+           
+            <!-- Play icon -->
+           
+          
+
+          <div class="mt-4 text-xs md:text-sm text-white/70">
+            Tip: Here is the Quick Guide to show that how you can deposit into your account.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANNOUNCEMENT -->
+<section class="py-10 md:py-14">
+  <div class="container mx-auto px-6">
+    <div class="relative overflow-hidden rounded-2xl shadow-2xl pak-announce">
+      <!-- Overlay to keep text readable -->
+      <div class="absolute inset-0 pak-announce__overlay"></div>
+
+      <div class="relative p-6 md:p-10">
+        <div class="flex items-center gap-4 mb-6 md:mb-8">
+          <div class="h-8 w-1 bg-primary-gold"></div>
+          <h2 class="text-xl md:text-2xl font-black uppercase tracking-widest italic">
+            ANNOUNCEMENT
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-10">
+          <!-- LEFT -->
+          <div class="rounded-2xl glass-card p-5 md:p-7">
+            <h3 class="text-lg md:text-2xl font-black uppercase tracking-widest">
+              WE STAND FOR PAKISTAN
+            </h3>
+
+            <p class="mt-4 text-white/85 leading-relaxed text-sm md:text-base">
+              From Mar 1 to Mar 21, 10% of all deposits goes to our Victory Fund.
+              Victory Fund will be given to family of martyrs.
+            </p>
+
+            <div class="mt-5 inline-flex items-center gap-3 rounded-xl border border-white/10 bg-black/20 px-4 py-3">
+              <span class="text-[11px] md:text-xs font-black uppercase tracking-widest text-white/70">
+                FUND Target
+              </span>
+              <span class="text-sm md:text-base font-extrabold">
+                10 million PKR
+              </span>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="rounded-2xl glass-card p-5 md:p-7 flex flex-col justify-center">
+            <div class="text-[11px] md:text-xs font-black uppercase tracking-widest text-white/70">
+              FUND RAISED
+            </div>
+
+            <div
+              id="fundRaisedCounter"
+              class="mt-3 fund-counter"
+              data-target="10000000"
+              data-start-month="3"
+              data-start-day="1"
+              data-duration-days="16"
+              aria-label="Fund raised counter"
+            >
+              0
+            </div>
+
+            <div class="mt-3 text-xs md:text-sm text-white/60">
+              Progress updates automatically based on date (persists after reload).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
       <div class="container mx-auto px-6">
         <div class="flex items-center gap-4 mb-12">
           <div class="h-8 w-1 bg-primary-gold"></div>
@@ -387,11 +628,11 @@
     </button>
   </a>
 
-  <!-- Logos under register -->
-  <div class="flex gap-2 mt-2">
-    <img src="assets/logo1.png" class="h-6 w-auto opacity-90" />
-    <img src="assets/logo2.png" class="h-6 w-auto opacity-90" />
-  </div>
+  <!-- Easypaisa and jazzcash Logos under register btn -->
+ <div class="flex gap-3 mt-2">
+  <img src="assets/logo1.png" class="h-10 md:h-10 w-auto opacity-90" />
+  <img src="assets/logo2.png" class="h-10 md:h-10 w-auto opacity-90" />
+</div>
 
 </div>
 
@@ -417,85 +658,61 @@
       </div>
     </div>
 
-    <!-- NEW: Carousel JS (drag + auto slide + smooth snap) -->
-    <script>
-      (function () {
-        const track = document.getElementById("bannerTrack");
-        if (!track) return;
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-        // Drag-to-scroll (cursor)
-        let isDown = false;
-        let startX = 0;
-        let startScrollLeft = 0;
+  const track = document.getElementById("bannerTrack");
+  if (!track) return;
 
-        const onDown = (e) => {
-          isDown = true;
-          track.style.cursor = "grabbing";
-          track.style.scrollBehavior = "auto";
-          startX = (e.pageX || e.touches?.[0]?.pageX || 0);
-          startScrollLeft = track.scrollLeft;
-        };
+  let isDown = false;
+  let startX = 0;
+  let startScrollLeft = 0;
 
-        const onMove = (e) => {
-          if (!isDown) return;
-          const x = (e.pageX || e.touches?.[0]?.pageX || 0);
-          const walk = startX - x;
-          track.scrollLeft = startScrollLeft + walk;
-        };
+  const onDown = (e) => {
+    isDown = true;
+    track.style.cursor = "grabbing";
+    track.style.scrollBehavior = "auto";
+    startX = (e.pageX || e.touches?.[0]?.pageX || 0);
+    startScrollLeft = track.scrollLeft;
+  };
 
-        const onUp = () => {
-          isDown = false;
-          track.style.cursor = "grab";
-          track.style.scrollBehavior = "smooth";
-        };
+  const onMove = (e) => {
+    if (!isDown) return;
+    const x = (e.pageX || e.touches?.[0]?.pageX || 0);
+    const walk = startX - x;
+    track.scrollLeft = startScrollLeft + walk;
+  };
 
-        track.addEventListener("mousedown", onDown);
-        track.addEventListener("mousemove", onMove);
-        window.addEventListener("mouseup", onUp);
+  const onUp = () => {
+    isDown = false;
+    track.style.cursor = "grab";
+    track.style.scrollBehavior = "smooth";
+  };
 
-        // Touch support
-        track.addEventListener("touchstart", onDown, { passive: true });
-        track.addEventListener("touchmove", onMove, { passive: true });
-        track.addEventListener("touchend", onUp);
+  track.addEventListener("mousedown", onDown);
+  track.addEventListener("mousemove", onMove);
+  window.addEventListener("mouseup", onUp);
 
-        // Auto-slide
-        const slides = Array.from(track.querySelectorAll("a"));
-        let idx = 0;
+  track.addEventListener("touchstart", onDown, { passive: true });
+  track.addEventListener("touchmove", onMove, { passive: true });
+  track.addEventListener("touchend", onUp);
 
-        const goTo = (i) => {
-          const el = slides[i];
-          if (!el) return;
-          track.scrollTo({ left: el.offsetLeft, behavior: "smooth" });
-        };
+  const slides = Array.from(track.querySelectorAll("a"));
+  let idx = 0;
 
-        setInterval(() => {
-          // If user is dragging, skip this tick
-          if (isDown) return;
+  const goTo = (i) => {
+    const el = slides[i];
+    if (!el) return;
+    track.scrollTo({ left: el.offsetLeft, behavior: "smooth" });
+  };
 
-          idx = (idx + 1) % slides.length;
-          goTo(idx);
-        }, 4000);
+  setInterval(() => {
+    if (isDown) return;
+    idx = (idx + 1) % slides.length;
+    goTo(idx);
+  }, 4000);
 
-        // Keep idx in sync when user scrolls manually
-        track.addEventListener(
-          "scroll",
-          () => {
-            // Find closest slide based on current scrollLeft
-            const cur = track.scrollLeft;
-            let best = 0;
-            let bestDist = Infinity;
-            slides.forEach((s, i) => {
-              const d = Math.abs(s.offsetLeft - cur);
-              if (d < bestDist) {
-                bestDist = d;
-                best = i;
-              }
-            });
-            idx = best;
-          },
-          { passive: true }
-        );
-      })();
-    </script>
+});
+</script>
   </body>
 </html>
